@@ -13,7 +13,7 @@ openings = [
     'id': 2,
     'Title': 'Software Engg',
     'Location': 'Pune',
-    'salary': 5000000
+    'salary': 7000000
   },
   {
     'id': 3,
