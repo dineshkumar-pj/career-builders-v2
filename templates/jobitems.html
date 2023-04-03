@@ -1,0 +1,15 @@
+<div class="border-bottom row" style="margin-bottom:14px ; padding-bottom:8px;"> 
+      <div class="col-10">
+              <h4 style="color:gray;">{{j['Title']}}</h4>
+              <b>Location:</b> {{j['Location']}}<br>
+              {% if 'salary' in j %}
+              <b>Salary:</b> {{j['salary']}}
+              {% endif %}
+      </div>
+      <div class ="col-2">
+      <button type="button" class="btn btn-outline-success">
+        Apply
+      </button>
+      </div>
+  
+</div>
